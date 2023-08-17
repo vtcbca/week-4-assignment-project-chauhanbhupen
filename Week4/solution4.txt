@@ -1,4 +1,4 @@
-def create_contact_table_30():
+def create_contact_table():
     tbl="""Create table IF NOT EXISTS contact(
         fname text,
         lname text,
@@ -8,7 +8,7 @@ def create_contact_table_30():
         )"""
     curobj.execute(tbl)
 
-def create_log_table_30():
+def create_log_table():
     logtbl="""create table  IF NOT EXISTS logtable1
         (
         fname text,
